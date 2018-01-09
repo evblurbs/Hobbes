@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Hobbes",
+    "description": "An app for tracking and taking care of your puppy. Log potty breaks and meal breaks to stay on a regular schedule.",
+    "slug": "hobbes",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "Hourglass Apps",
+            "project": "Hobbes",
+            "authToken": "your auth token here"
+          }
+        }
+      ]
+    }
+  }
+}

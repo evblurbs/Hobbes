@@ -1,0 +1,21 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "email-validator": "^1.1.1",
+    "expo": "^22.0.0",
+    "firebase": "^4.6.2",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0-beta.5",
+    "react-mixin": "^2.0.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.2.tar.gz",
+    "react-navigation": "^1.0.0-beta.19",
+    "react-timer-mixin": "^0.13.3",
+    "sentry-expo": "^1.7.0"
+  },
+  "name": "hobbes",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": "johnson.evan1@gmail.com"
+}
